@@ -1,0 +1,156 @@
+.about-section {
+  padding-bottom: 2rem;
+}
+
+.about-header {
+  margin-bottom: 4rem;
+}
+
+.about-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  letter-spacing: -1px;
+}
+
+.about-title span {
+  color: var(--primary-color);
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 2.5rem;
+  text-transform: lowercase;
+  font-style: italic;
+}
+
+.about-subtitle {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+}
+
+.about-bento-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.bento-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+.bento-text {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.bento-text strong {
+  color: var(--text-primary);
+}
+
+.focus-card {
+  padding: 3rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-bg-icon {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  opacity: 0.05;
+  color: var(--text-primary);
+  pointer-events: none;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: auto;
+  padding-top: 2rem;
+}
+
+.tech-tag {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  padding: 0.4rem 1rem;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.02);
+  transition: var(--transition);
+}
+
+.tech-tag:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  background: rgba(99, 102, 241, 0.1);
+}
+
+.projects-stat-card {
+  background: linear-gradient(145deg, rgba(88, 28, 135, 0.2), var(--surface-color));
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid rgba(192, 132, 252, 0.2);
+}
+
+.projects-stat-card:hover {
+  border-color: rgba(192, 132, 252, 0.4);
+}
+
+.stat-circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: white;
+  color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+}
+
+.stat-number {
+  font-size: 4.5rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 900px) {
+  .about-bento-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+  }
+  
+  .about-title span {
+    font-size: 1.8rem;
+  }
+  
+  .projects-stat-card {
+    padding: 4rem 2rem;
+  }
+}
