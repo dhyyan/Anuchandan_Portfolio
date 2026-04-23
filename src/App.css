@@ -8,3 +8,16 @@
 main {
   flex: 1;
 }
+
+.main-content {
+  transition: opacity 0.8s ease-in-out;
+}
+
+.main-content.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.main-content.visible {
+  opacity: 1;
+}
