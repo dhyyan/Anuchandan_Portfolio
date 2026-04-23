@@ -258,3 +258,23 @@
     height: 300px;
   }
 }
+
+@media (max-width: 480px) {
+  .hero-name {
+    font-size: 3rem;
+  }
+  .hero-description {
+    font-size: 1rem;
+  }
+  .avatar-wrapper {
+    width: 260px;
+    height: 260px;
+  }
+  .avatar-circle {
+    width: 240px;
+    height: 240px;
+  }
+  .code-badge, .status-badge {
+    transform: scale(0.8);
+  }
+}

@@ -154,3 +154,18 @@
     padding: 4rem 2rem;
   }
 }
+
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 2rem;
+  }
+  .about-title span {
+    font-size: 1.5rem;
+  }
+  .focus-card {
+    padding: 2rem 1.5rem;
+  }
+  .projects-stat-card {
+    padding: 2rem 1rem;
+  }
+}

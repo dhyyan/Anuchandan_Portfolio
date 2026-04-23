@@ -43,6 +43,7 @@
   margin-bottom: 1rem;
   background: linear-gradient(to right, #fff, var(--primary-color));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -306,5 +307,24 @@
   }
   .modal-title {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-slider {
+    padding: 1rem 5vw;
+  }
+  .slider-project-card, .slider-header-block {
+    min-width: 85vw;
+    height: 380px;
+  }
+  .card-title {
+    font-size: 1.5rem;
+  }
+  .modal-placeholder {
+    font-size: 2.5rem;
+  }
+  .modal-content {
+    padding: 1.5rem;
   }
 }
