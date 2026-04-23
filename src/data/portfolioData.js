@@ -8,7 +8,7 @@ export const portfolioData = {
   name: "Anuchandana S",
   title: "Frontend Developer — MERN Stack Developer",
   location: "Kochi, Kerala",
-  email: "anuu36203@gmail.com",
+  email: "anuchandana1029@gmail.com",
   phone: "+91 6238432890",
   linkedin: "https://www.linkedin.com/in/anuchandana-sunil-57012b319/",
   github: "https://github.com/anuchandana963",

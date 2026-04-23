@@ -10,7 +10,7 @@ const Contact = () => {
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
 
-    const mailtoLink = `mailto:anuu36203@gmail.com?subject=Portfolio Contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(
+    const mailtoLink = `mailto:${portfolioData.email}?subject=Portfolio Contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(
       `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
     )}`;
     
